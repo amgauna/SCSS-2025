@@ -1,0 +1,27 @@
+/* SCSS */  
+
+/* When you install Sass on the command line, you'll be able to run 
+   the sass executable to compile .sass and .scss files to .css files. 
+   For example:
+   sass source/stylesheets/index.scss build/stylesheets/index.css
+*/
+
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$Font: Helvetica, sans-serif;
+$FontSize: 12px;
+$textcolor: darkblue;
+$Width: 680px;
+
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  font-family: $Font;
+  font-size: $FontSize;
+  color: $textcolor;
+}
+
+#container {
+  width: $Width;
+}
