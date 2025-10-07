@@ -1,4 +1,4 @@
-.Navbar-Light {
+.NavBar-Light {
 --#{$prefix}navbar-padding-x: #{if($navbar-padding-x == null, 0, $navbar-padding-x)};
 --#{$prefix}navbar-padding-y: #{$navbar-padding-y};
 --#{$prefix}navbar-color: #{$navbar-light-color};
