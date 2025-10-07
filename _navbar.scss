@@ -1,3 +1,4 @@
+.Navbar-Light {
 --#{$prefix}navbar-padding-x: #{if($navbar-padding-x == null, 0, $navbar-padding-x)};
 --#{$prefix}navbar-padding-y: #{$navbar-padding-y};
 --#{$prefix}navbar-color: #{$navbar-light-color};
@@ -18,7 +19,9 @@
 --#{$prefix}navbar-toggler-border-radius: #{$navbar-toggler-border-radius};
 --#{$prefix}navbar-toggler-focus-width: #{$navbar-toggler-focus-width};
 --#{$prefix}navbar-toggler-transition: #{$navbar-toggler-transition};
+}
 
+.Nav-Link {
 --#{$prefix}nav-link-padding-x: 0;
 --#{$prefix}nav-link-padding-y: #{$nav-link-padding-y};
 @include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size);
@@ -26,10 +29,15 @@
 --#{$prefix}nav-link-color: var(--#{$prefix}navbar-color);
 --#{$prefix}nav-link-hover-color: var(--#{$prefix}navbar-hover-color);
 --#{$prefix}nav-link-disabled-color: var(--#{$prefix}navbar-disabled-color);
+}
 
+.NavBar-Dark {
 --#{$prefix}navbar-color: #{$navbar-dark-color};
 --#{$prefix}navbar-hover-color: #{$navbar-dark-hover-color};
 --#{$prefix}navbar-disabled-color: #{$navbar-dark-disabled-color};
+}
+
+
 --#{$prefix}navbar-active-color: #{$navbar-dark-active-color};
 --#{$prefix}navbar-brand-color: #{$navbar-dark-brand-color};
 --#{$prefix}navbar-brand-hover-color: #{$navbar-dark-brand-hover-color};
