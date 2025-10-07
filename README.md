@@ -9,5 +9,5 @@ SCSS - Exemplos de Código
       
       @import url("scss/_navbarvariables.scss");
       
-      @import url("/scss/privacidade-modal.scss");
+      @import url("scss/privacidade-modal.scss");
 
